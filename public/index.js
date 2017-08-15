@@ -6,7 +6,7 @@ var React = require("react");
 
 
 import {
-    Form, Select, Input, Radio, Button, Upload, Icon,
+    Form, Input, Button, Upload, Icon,
 } from 'antd';
 const FormItem = Form.Item;
 
@@ -88,7 +88,7 @@ class Demo extends React.Component {
                         valuePropName: 'fileList',
                         getValueFromEvent: this.normFile,
                     })(
-                        <Upload name="logo" action="/upload.do" listType="picture">
+                        <Upload name="logo" action="/upload" listType="picture">
                             <Button>
                                 <Icon type="upload" /> Click to upload
                             </Button>

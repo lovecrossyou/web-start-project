@@ -16646,7 +16646,7 @@ var Demo = function (_React$Component) {
                         getValueFromEvent: this.normFile
                     })(React.createElement(
                         _upload2.default,
-                        { name: "logo", action: "/upload.do", listType: "picture" },
+                        { name: "logo", action: "/upload", listType: "picture" },
                         React.createElement(
                             _button2.default,
                             null,
